@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		40E557C3DF4D14F1D84DB6A5 /* Pods_Redis_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A85CB451C7EAC45BDFD3F6 /* Pods_Redis_Mac.framework */; };
+		430DCD091EF0C26A0030B44F /* RedisDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430DCD081EF0C26A0030B44F /* RedisDB.swift */; };
+		430DCD0B1EF156CD0030B44F /* Id.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430DCD0A1EF156CD0030B44F /* Id.swift */; };
 		436CA5201EEA708600C2DDA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CA51F1EEA708600C2DDA2 /* AppDelegate.swift */; };
 		436CA5221EEA708600C2DDA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CA5211EEA708600C2DDA2 /* ViewController.swift */; };
 		436CA5241EEA708600C2DDA2 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CA5231EEA708600C2DDA2 /* Document.swift */; };
@@ -16,14 +18,17 @@
 		436CA5341EEA708600C2DDA2 /* Redis_MacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CA5331EEA708600C2DDA2 /* Redis_MacTests.swift */; };
 		436CA5451EEA75C400C2DDA2 /* Redbird.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436CA5441EEA75C400C2DDA2 /* Redbird.framework */; };
 		436CA54D1EEA767100C2DDA2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CA5471EEA767100C2DDA2 /* Logger.swift */; };
-		436CA54E1EEA767100C2DDA2 /* RedisServerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CA5481EEA767100C2DDA2 /* RedisServerModel.swift */; };
-		436CA54F1EEA767100C2DDA2 /* RedisDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CA5491EEA767100C2DDA2 /* RedisDB.swift */; };
+		436CA54E1EEA767100C2DDA2 /* RedisServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CA5481EEA767100C2DDA2 /* RedisServer.swift */; };
+		436CA54F1EEA767100C2DDA2 /* RedisInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CA5491EEA767100C2DDA2 /* RedisInstance.swift */; };
 		436CA5501EEA767100C2DDA2 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CA54A1EEA767100C2DDA2 /* JSON.swift */; };
 		436CA5511EEA767100C2DDA2 /* RedisClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CA54B1EEA767100C2DDA2 /* RedisClient.swift */; };
 		436CA5521EEA767100C2DDA2 /* DBUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CA54C1EEA767100C2DDA2 /* DBUtil.swift */; };
 		436CA5561EEA76B100C2DDA2 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CA5551EEA76B100C2DDA2 /* WindowController.swift */; };
 		439585441EEA7A1800E689BA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 439585421EEA7A1800E689BA /* LICENSE */; };
 		439585451EEA7A1800E689BA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 439585431EEA7A1800E689BA /* README.md */; };
+		4395854E1EEA971200E689BA /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4395854D1EEA971200E689BA /* XCGLogger.framework */; };
+		439585501EEAB65D00E689BA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4395854F1EEAB65D00E689BA /* LoginViewController.swift */; };
+		439585521EEE87C800E689BA /* UserDefaultsSettable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439585511EEE87C800E689BA /* UserDefaultsSettable.swift */; };
 		C5C3CA2F2B73671E5724650B /* Pods_Redis_MacTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E329B03D6B7CBD6249ED6B7C /* Pods_Redis_MacTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +45,8 @@
 /* Begin PBXFileReference section */
 		0613CC1F81BC0057BEA27BA5 /* Pods-Redis-MacTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Redis-MacTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Redis-MacTests/Pods-Redis-MacTests.release.xcconfig"; sourceTree = "<group>"; };
 		40A85CB451C7EAC45BDFD3F6 /* Pods_Redis_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Redis_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		430DCD081EF0C26A0030B44F /* RedisDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedisDB.swift; sourceTree = "<group>"; };
+		430DCD0A1EF156CD0030B44F /* Id.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Id.swift; sourceTree = "<group>"; };
 		436CA51C1EEA708600C2DDA2 /* Redis-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Redis-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		436CA51F1EEA708600C2DDA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		436CA5211EEA708600C2DDA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,14 +59,17 @@
 		436CA5351EEA708600C2DDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		436CA5441EEA75C400C2DDA2 /* Redbird.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Redbird.framework; path = Dependency/build/Debug/Redbird.framework; sourceTree = "<group>"; };
 		436CA5471EEA767100C2DDA2 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		436CA5481EEA767100C2DDA2 /* RedisServerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedisServerModel.swift; sourceTree = "<group>"; };
-		436CA5491EEA767100C2DDA2 /* RedisDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedisDB.swift; sourceTree = "<group>"; };
+		436CA5481EEA767100C2DDA2 /* RedisServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedisServer.swift; sourceTree = "<group>"; };
+		436CA5491EEA767100C2DDA2 /* RedisInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedisInstance.swift; sourceTree = "<group>"; };
 		436CA54A1EEA767100C2DDA2 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		436CA54B1EEA767100C2DDA2 /* RedisClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedisClient.swift; sourceTree = "<group>"; };
 		436CA54C1EEA767100C2DDA2 /* DBUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBUtil.swift; sourceTree = "<group>"; };
 		436CA5551EEA76B100C2DDA2 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		439585421EEA7A1800E689BA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		439585431EEA7A1800E689BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4395854D1EEA971200E689BA /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Dependency/build/Debug/XCGLogger.framework; sourceTree = "<group>"; };
+		4395854F1EEAB65D00E689BA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		439585511EEE87C800E689BA /* UserDefaultsSettable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsSettable.swift; sourceTree = "<group>"; };
 		7EF47771AA31B317C667DF30 /* Pods-Redis-Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Redis-Mac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Redis-Mac/Pods-Redis-Mac.debug.xcconfig"; sourceTree = "<group>"; };
 		C951A71F33BCDC36AE5114CA /* Pods-Redis-MacTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Redis-MacTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Redis-MacTests/Pods-Redis-MacTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD7B667BB8364E92A8DBB088 /* Pods-Redis-Mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Redis-Mac.release.xcconfig"; path = "Pods/Target Support Files/Pods-Redis-Mac/Pods-Redis-Mac.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4395854E1EEA971200E689BA /* XCGLogger.framework in Frameworks */,
 				436CA5451EEA75C400C2DDA2 /* Redbird.framework in Frameworks */,
 				40E557C3DF4D14F1D84DB6A5 /* Pods_Redis_Mac.framework in Frameworks */,
 			);
@@ -151,6 +162,7 @@
 				436CA54C1EEA767100C2DDA2 /* DBUtil.swift */,
 				436CA54A1EEA767100C2DDA2 /* JSON.swift */,
 				436CA5471EEA767100C2DDA2 /* Logger.swift */,
+				439585511EEE87C800E689BA /* UserDefaultsSettable.swift */,
 			);
 			name = tool;
 			sourceTree = "<group>";
@@ -158,8 +170,9 @@
 		436CA5531EEA767A00C2DDA2 /* redis */ = {
 			isa = PBXGroup;
 			children = (
-				436CA5491EEA767100C2DDA2 /* RedisDB.swift */,
+				436CA5491EEA767100C2DDA2 /* RedisInstance.swift */,
 				436CA54B1EEA767100C2DDA2 /* RedisClient.swift */,
+				430DCD081EF0C26A0030B44F /* RedisDB.swift */,
 			);
 			name = redis;
 			sourceTree = "<group>";
@@ -167,7 +180,8 @@
 		436CA5541EEA768500C2DDA2 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				436CA5481EEA767100C2DDA2 /* RedisServerModel.swift */,
+				436CA5481EEA767100C2DDA2 /* RedisServer.swift */,
+				430DCD0A1EF156CD0030B44F /* Id.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -177,6 +191,7 @@
 			children = (
 				436CA5211EEA708600C2DDA2 /* ViewController.swift */,
 				436CA5551EEA76B100C2DDA2 /* WindowController.swift */,
+				4395854F1EEAB65D00E689BA /* LoginViewController.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -184,6 +199,7 @@
 		CC1DA582C73582046E054943 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4395854D1EEA971200E689BA /* XCGLogger.framework */,
 				436CA5441EEA75C400C2DDA2 /* Redbird.framework */,
 				40A85CB451C7EAC45BDFD3F6 /* Pods_Redis_Mac.framework */,
 				E329B03D6B7CBD6249ED6B7C /* Pods_Redis_MacTests.framework */,
@@ -395,15 +411,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439585501EEAB65D00E689BA /* LoginViewController.swift in Sources */,
 				436CA5221EEA708600C2DDA2 /* ViewController.swift in Sources */,
 				436CA5561EEA76B100C2DDA2 /* WindowController.swift in Sources */,
 				436CA5501EEA767100C2DDA2 /* JSON.swift in Sources */,
 				436CA5511EEA767100C2DDA2 /* RedisClient.swift in Sources */,
 				436CA5201EEA708600C2DDA2 /* AppDelegate.swift in Sources */,
-				436CA54E1EEA767100C2DDA2 /* RedisServerModel.swift in Sources */,
-				436CA54F1EEA767100C2DDA2 /* RedisDB.swift in Sources */,
+				436CA54E1EEA767100C2DDA2 /* RedisServer.swift in Sources */,
+				436CA54F1EEA767100C2DDA2 /* RedisInstance.swift in Sources */,
+				430DCD0B1EF156CD0030B44F /* Id.swift in Sources */,
 				436CA5241EEA708600C2DDA2 /* Document.swift in Sources */,
+				439585521EEE87C800E689BA /* UserDefaultsSettable.swift in Sources */,
 				436CA5521EEA767100C2DDA2 /* DBUtil.swift in Sources */,
+				430DCD091EF0C26A0030B44F /* RedisDB.swift in Sources */,
 				439585451EEA7A1800E689BA /* README.md in Sources */,
 				436CA54D1EEA767100C2DDA2 /* Logger.swift in Sources */,
 			);

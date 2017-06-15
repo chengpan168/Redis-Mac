@@ -7,6 +7,14 @@
 //
 
 import Cocoa
+import XCGLogger
+
+
+let logger: XCGLogger = {
+    let log = XCGLogger.default
+    log.setup(level: .debug, showThreadName: true, showLevel: true, showFileNames: true, showLineNumbers: true, writeToFile: "logs/redis-mac.log", fileLevel: .debug)
+    return log
+}()
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -14,13 +22,21 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
+}
 
-
+extension UserDefaults {
+    // redis server list
+    struct RedisServerInfo: UserDefaultsSettable {
+        enum defaultKeys: String {
+            case servers
+        }
+    }
+  
 }
 

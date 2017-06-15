@@ -1,10 +1,12 @@
 //
 //  RedisDB.swift
-//  Redis-OSX
+//  Redis-Mac
 //
-//  Created by chengpanwang on 2017/2/25.
-//  Copyright © 2017年 chengpanwang. All rights reserved.
+//  Created by chengpanwang on 2017/6/14.
+//  Copyright © 2017年 chengpan. All rights reserved.
 //
+
+import Foundation
 
 class RedisDB {
     var name:String

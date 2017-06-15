@@ -14,11 +14,11 @@ class RedisClient {
     var client:Redbird? = nil
     var isConnected:Bool = false
 
-    init( host:String, port:UInt16, password:String? = nil) {
+    init( host:String, port:UInt, password:String? = nil) {
         logger.info("初始化redis客户端\(host), \(port), \(password)")
         do {
             
-            let config = RedbirdConfig(address: host, port: port)
+            let config = RedbirdConfig(address: host, port: UInt16(port))
             self.client = try Redbird(config: config)
             
             let res = try client?.command("ping")

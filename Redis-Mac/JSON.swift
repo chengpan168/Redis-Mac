@@ -40,7 +40,7 @@ func toJSON(jsonObject:Any, writeOption:JSONSerialization.WritingOptions) -> Str
         out.close()
         
     } catch let error as NSError {
-        logger.info("格式化json错误: \(error.domain)")
+        logger.info("format json error: \(error.domain)")
     }
     
     return ""

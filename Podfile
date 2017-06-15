@@ -9,7 +9,6 @@ target 'Redis-Mac' do
 
 
   # Pods for Redis-Mac
-	pod 'XCGLogger', '~> 4.0.0'
     pod 'SwiftyJSON'
 end
 
@@ -19,6 +18,5 @@ target 'Redis-MacTests' do
     use_frameworks!
     
     # Pods for Redis-OSX
-    pod 'XCGLogger', '~> 4.0.0'
     pod 'SwiftyJSON'
 end

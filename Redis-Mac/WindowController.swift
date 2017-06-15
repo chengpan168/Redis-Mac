@@ -9,7 +9,13 @@
 import AppKit
 
 class WindowController: NSWindowController {
+    var title = "Redis Mac"
+    
     override func windowDidLoad() {
         logger.info("window loaded")
+    }
+    
+    override func windowTitle(forDocumentDisplayName displayName: String) -> String {
+        return title
     }
 }
